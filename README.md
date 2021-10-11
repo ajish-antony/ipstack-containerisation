@@ -24,8 +24,8 @@ alt_txt
 ## Pre-Requests
 
 - Knowledge in Docker and docker compose
-- DOcker compose installed and configured
-- basic knowledge in ipstack and it's working
+- Docker compose installed and configured
+- Basic knowledge in ipstack and it's working
 - Need an IP stack Login and API for location finding
 
 ## Behind the Code
