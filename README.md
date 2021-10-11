@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Here is a project in which makes use of the ipstack feature to collect the geolocation of IP addresses accessing the website. The scenario for the project is that there if there is high access to a website application and needs to track the IP address details directly from the Ipstack, it will be difficult. As there will be rate-limiting for the API calls if it is fetching directly from the ipstack. So in order to avoid the issue, elastic cache Redis caching in AWS has been utilized (Redis containers can also be used as per the requirements). So once the details have been fetched, further it will be delivered from the cache server. As mentioned it's applicable for certain scenarios only. 
+Here is a project in which makes use of the ipstack feature to collect the geolocation of IP addresses accessing the website. The scenario for the project is that there if there is high access to a website application and needs to track the IP address details directly from the Ipstack, it will be difficult. As there will be rate-limiting for the API calls if it is fetching directly from the ipstack. So in order to avoid the issue, elastic cache Redis in AWS has been utilized (Redis containers can also be used as per the requirements). So once the details have been fetched, further it will be delivered from the cache server. As mentioned it's applicable for certain scenarios only. 
 
 The basic outline of the project is that IP stack has been made utilized for tracking the access details of the website with the API token. At the same time for caching these details, the elastic cache Redis feature has been utilized. Moreverove infrastructure has been deployed in the docker containerized. For load-balancing these containers, Nginx has been utilized in the same manner as the containers. 
 
@@ -23,7 +23,7 @@ alt_txt
 
 ## Pre-Requests
 
-- Knowledge in Docker and docker composer
+- Knowledge in Docker and docker compose
 - DOcker compose installed and configured
 - basic knowledge in ipstack and it's working
 - Need an IP stack Login and API for location finding
