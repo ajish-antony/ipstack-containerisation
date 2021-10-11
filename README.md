@@ -33,7 +33,7 @@ alt_txt
 > Consider the provided below as a sample compose file and if required update the values according to the requirement 
 
 ```sh
-    version: "3.9"
+version: "3.9"
 
 services:
   nginx:
@@ -54,7 +54,7 @@ services:
     networks:
       - ipstack
     environment:
-      CACHING_SERVER: ipstack.99ckj3.ng.0001.use1.cache.amazonaws.com
+      CACHING_SERVER: "${CACHING_SERVER}"
       IPSTACK_KEY: "${IPSTACK_KEY}"
 
   ipstack2:
@@ -64,7 +64,7 @@ services:
     networks:
       - ipstack
     environment:
-      CACHING_SERVER: ipstack.99ckj3.ng.0001.use1.cache.amazonaws.com
+      CACHING_SERVER: "${CACHING_SERVER}"
       IPSTACK_KEY: "${IPSTACK_KEY}"
 
   ipstack3:
@@ -74,7 +74,7 @@ services:
     networks:
       - ipstack
     environment:
-      CACHING_SERVER: ipstack.99ckj3.ng.0001.use1.cache.amazonaws.com
+      CACHING_SERVER: "${CACHING_SERVER}"
       IPSTACK_KEY: "${IPSTACK_KEY}"
 networks:
   ipstack:
