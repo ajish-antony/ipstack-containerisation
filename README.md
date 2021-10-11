@@ -146,8 +146,10 @@ alt_txt
 ```sh
 docker-compose --env-file env.dev up -d
 ```
+### Output
 
-Update with the IP of the which needs to find the geolocation as provided below. As per the sample page created, here it will display the details as provided below. 
+- Update with the IP of the which needs to find the geolocation as provided below. As per the sample page created, here it will display the details as provided below. 
+
 ![
 alt_txt
 ](https://i.ibb.co/2Fv5Kpf/output.jpg)
