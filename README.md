@@ -156,7 +156,7 @@ alt_txt
 
 ## Conclusion 
 
-Here I have made utilized use of ipstack and its features along with caching && containerization in docker.
+Here I have made utilized ipstack and its features along with caching && containerization in docker.
 
 
 ### ⚙️ Connect with Me
